@@ -1,0 +1,137 @@
+.wrapper {
+    background: rgba(196, 192, 244, 0.6);
+    min-height: 260px;
+}
+
+.inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 25px 25px 12px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.linksRow {
+    max-width: 91%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.col {
+    max-width: 20%;
+    flex: 0 0 20%;
+    padding-top: 21px;
+
+    &:first-of-type {
+        max-width: 224px;
+        flex: 0 0 224px;
+        padding-top: 0;
+    }
+
+    &:nth-of-type(2) {
+        max-width: 220px;
+        flex: 0 0 220px;
+        > h3 {
+            margin-bottom: 10px;
+        }
+    }
+
+    &:nth-of-type(3) {
+        max-width: 248px;
+        flex: 0 0 248px;
+        > h3 {
+            margin-bottom: 24px;
+        }
+    }
+
+    &:nth-of-type(4) {
+        max-width: 203px;
+        flex: 0 0 203px;
+        > h3 {
+            margin-bottom: 16px;
+        }
+    }
+
+    &:nth-of-type(5) {
+        > h3 {
+            margin-bottom: 16px;
+        }
+
+        a {
+            color: #9590D4;
+        }
+    }
+
+}
+
+.logoWrapper {
+    width: 100px;
+    height: 40.75px;
+    margin-bottom: 12px;
+}
+
+.neotopiaLogoWrapper {
+    width: 212px;
+    height: 80px;
+
+    position: relative;
+    left: -27px;
+
+    > img {
+        width: 100%;
+    }
+}
+
+.mcVisaLogoWrapper {
+    width: 212px;
+    height: 80px;
+
+    position: relative;
+    left: -68px;
+
+    > img {
+        width: 100%;
+    }
+}
+
+.anpcLogoWrapper {
+    width: 202.4px;
+    height: 51.24px;
+
+    position: relative;
+    left: -12px;
+
+    > img {
+        width: 100%;
+    }
+}
+
+.list {
+    list-style-type: none;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 16px;
+}
+
+.infoRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoText {
+    font-size: 16px; 
+    color: #6660BC;
+
+    > a {
+        color: #9590D4;
+        text-decoration: underline;
+    }
+}
