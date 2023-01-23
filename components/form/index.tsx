@@ -46,8 +46,8 @@ export const Form = () => {
 
         <div className={styles.checkboxWrapper}>
           <Checkbox onClick={() => setTermsChecked(!isTermsChecked)}>
-            Accept <Link href="/">"Termenii de utilizare"</Link> și{" "}
-            <Link href="/">"Politica de Confidențialitate"</Link>
+            Accept <Link href="/">&quot;Termenii de utilizare&quot;</Link> și{" "}
+            <Link href="/">&quot;Politica de Confidențialitate&quot;</Link>
           </Checkbox>
         </div>
 
@@ -58,7 +58,8 @@ export const Form = () => {
         </div>
 
         <p className={styles.text}>
-          Dacă nu aveți un cont, vă rugăm să vă <Link href="/">înregistrați</Link>
+          Dacă nu aveți un cont, vă rugăm să vă{" "}
+          <Link href="/">înregistrați</Link>
         </p>
       </form>
     </div>
