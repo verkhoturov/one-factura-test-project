@@ -1,8 +1,8 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 
-const GOOGLE_ID = "753188409598-qfaauh3j4kjqt8cdfd54enpqpd2s00nb.apps.googleusercontent.com";
-const GOOGLE_SECRET = "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";
+const GOOGLE_ID = "753188409598-pnt0qqreldku0l2od20hdllbtcd6aucc.apps.googleusercontent.com";
+const GOOGLE_SECRET = "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";
 
 const options = {
   providers: [
