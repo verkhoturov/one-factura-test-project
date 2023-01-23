@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <Main>
         <div>
-          {/* session && <button onClick={() => signOut()}>Sign out</button> */}
+          {session && <button onClick={() => signOut()}>Sign out</button>}
         </div>
       </Main>
       <Footer />
