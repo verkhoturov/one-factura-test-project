@@ -1,0 +1,38 @@
+.wrapper {
+    padding-left: 22px;
+    position: relative;
+}
+ 
+.label {
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+
+    border: 1px solid #524E4B;
+
+    position: absolute;
+    left: 0;
+    top: 2px;
+
+    &::after {
+        content: "✓";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: -3px;
+        left: 2px;
+        opacity: 0;
+    }
+}
+
+.input {
+    display: none;
+
+    &:checked + .checkbox::after {
+        opacity: 1;
+    }
+}

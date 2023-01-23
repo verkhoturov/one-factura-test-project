@@ -1,0 +1,49 @@
+.wrapper { 
+    display: flex;
+    flex-direction: column;
+
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+.titleWrapper {
+    margin-bottom: 41px;
+}
+
+.googleBtnWrapper {
+    margin-bottom: 11px;
+}
+
+.text {
+    font-size: 16px;
+    margin-bottom: 6px;
+    text-align: center;
+
+    > a {
+        text-decoration: underline;
+    }
+}
+
+.newPassWrapper {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 33px;
+
+    text-align: right;
+
+    > a {
+        text-decoration: underline;
+    }
+}
+
+.checkboxWrapper {
+    margin-bottom: 24px;
+
+    a {
+        color: #6660BC;
+    }
+}
+
+.submitBtnWrapper {
+    margin-bottom: 28px;
+}

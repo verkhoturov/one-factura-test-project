@@ -2,5 +2,10 @@
     max-width: 1280px;
     min-height: calc(100vh - 262px - 126px);
     margin: 0 auto;
-    padding: 0 55px;
+    padding: 0 55px 55px;
+
+    @media (max-width: 1023px) {
+        max-width: 480px;
+        padding: 0 12px 20px;
+    }
 }

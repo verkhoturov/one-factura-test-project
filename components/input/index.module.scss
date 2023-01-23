@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+    margin-bottom: 11px;
+}
+
+.input {
+    height: 50px;
+    width: 100%;
+
+    background: rgba(217, 217, 217, 0.3);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: unset;
+
+    font-size: 16px;
+    color: #676767;
+
+    padding-left: 22px;
+}
+
+.label {
+    font-size: 16px;
+    line-height: 24px;
+
+    position: absolute;
+    right: calc(100% + 18px);
+    top: calc(50% - 8px);
+
+    @media (max-width: 1023px) {
+        position: initial;
+    }
+}

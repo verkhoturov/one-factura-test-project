@@ -7,6 +7,10 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 25px 25px 12px;
+
+    @media (max-width: 1023px) {
+        padding: 24px 30px;
+    }
 }
 
 .title {
@@ -18,6 +22,11 @@
     max-width: 91%;
     display: flex;
     margin-bottom: 32px;
+
+    @media (max-width: 1023px) {
+        flex-direction: column;
+        max-width: 100%;
+    }
 }
 
 .col {
@@ -64,7 +73,21 @@
             color: #9590D4;
         }
     }
+}
 
+.linksRow .col {
+    @media (max-width: 1023px) {
+        max-width: 100%;
+        flex: 0 0 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > h3 {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .logoWrapper {
@@ -124,6 +147,16 @@
 .infoRow {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1023px) {
+        flex-direction: column;
+        align-items: flex-end;
+
+        > div {
+            text-align: right;
+            margin-bottom: 12px;
+        }
+    }
 }
 
 .infoText {

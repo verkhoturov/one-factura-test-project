@@ -1,0 +1,45 @@
+.wrapper {
+    width: 100%;
+    max-width: 425px;
+    height: 50px;
+
+    background: #6660BC;
+    border: 1px solid #807A7A;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+
+    transition: 0.1s;
+
+    > svg {
+        margin-right: 10px;
+    }
+
+    &:hover {
+        background: rgba(196, 192, 244, 0.8);
+    }
+
+    &:disabled {
+        cursor: initial;
+        background: #807A7A;
+    }
+}
+
+.secondary {
+    background: rgba(196, 192, 244, 0.8);
+}
+
+.outline {
+    background: #FFFFFF;
+    color: #524E4B;
+}
