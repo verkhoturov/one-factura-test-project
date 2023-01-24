@@ -1,0 +1,49 @@
+.wrapper {
+   width: 100%;
+   padding-top: 25px;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 404px;
+}
+
+.btnWrapper {
+    max-width: 170px;
+    width: 100%;
+
+    > button {
+        height: 40px;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1023px) {    
+         flex-direction: column;    
+         align-items: center;
+     }
+}
+
+.list {
+    max-width: 400px;
+
+    @media (max-width: 1023px) {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+}
+
+.item {    
+    max-width: 200px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}

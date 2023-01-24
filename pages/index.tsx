@@ -1,14 +1,14 @@
 import Head from "next/head";
+import React from "react";
+import Router from "next/router";
 import { Main } from "../components/layout";
 import { Header } from "../components/header";
 import { Footer } from "../components/footer";
 
-import { useSession, signOut } from "next-auth/react";
-
 export default function Home() {
-  const { data: session } = useSession();
-
-  console.log("session", session);
+  React.useEffect(() => {
+    Router.push("/login");
+  }, []);
 
   return (
     <>
@@ -19,7 +19,6 @@ export default function Home() {
       <Header />
       <Main>
         <div>
-          {session && <button onClick={() => signOut()}>Sign out</button>}
         </div>
       </Main>
       <Footer />
