@@ -27,12 +27,8 @@
         left: 2px;
         opacity: 0;
     }
-}
 
-.input {
-    display: none;
-
-    &:checked + .checkbox::after {
+    &.checked::after {
         opacity: 1;
     }
 }

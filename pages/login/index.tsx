@@ -5,7 +5,6 @@ import { Main } from "../../components/layout";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 import { Form } from "../../components/form";
-import Script from "next/script";
 
 import { useSession } from "next-auth/react";
 
@@ -33,13 +32,6 @@ export default function Login() {
         )}
       </Main>
       <Footer />
-
-
-      <Script type="text/javascript" id="ringostat-script">
-        {`(function (d,s,u,e,p) {
-        p=d.getElementsByTagName(s)[0],e=d.createElement(s),e.async=1,e.src=u,p.parentNode.insertBefore(e, p);
-        })(document, 'script', 'https://script.ringostat.com/v4/6e/6e8525886980fadf8fb8da26bdd0221a34394fb6.js');`}
-      </Script>
     </>
   );
 }

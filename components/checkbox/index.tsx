@@ -25,7 +25,9 @@ export const Checkbox = ({ onClick, children }: CheckboxProps) => {
           type="checkbox"
           defaultChecked={checked}
         />
-        <div className={styles.checkbox}></div>
+        <div
+          className={`${styles.checkbox} ${checked ? styles.checked : ""}`}
+        ></div>
       </label>
     </div>
   );
