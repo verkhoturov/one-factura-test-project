@@ -34,11 +34,11 @@
 }
 
 .info {
-    max-width: 240px;
-    flex: 0 0 240px;
+    max-width: 280px;
+    flex: 0 0 280px;
 
     @media (max-width: 1023px) {    
-        max-width: 140px;
+        max-width: 150px;
         flex: 0 0 auto;
     }
 }
